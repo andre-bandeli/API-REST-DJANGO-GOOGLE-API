@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,300&family=Montserrat:wght@200;300&family=Outfit:wght@100;300&family=Quicksand:wght@300&display=swap');body {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+.navbar {
+    width: 30%;
+    height: 5vh;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.navbar li {
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(0, 0, 0, 0.842);
+    list-style-type: none;
+    font-size: 20px;
+    justify-content:flex-end;
+    margin-top: 1vh;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 10%;
+}
+.navbar a:hover {
+
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.nav-item {
+   margin-left: 7%;
+
+}
+
+
+.container {
+    width: 70vh;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.container h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 7vh;
+}
+
+.container .subtext {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+    width: 70%;
+}
+
+.butt {
+    width: 20%;
+    height: 5%;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 70vh;
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.butt a {
+    color: white;
+    text-decoration: none;
+}
+.butt:hover {
+    background-color: black;
+}
+
