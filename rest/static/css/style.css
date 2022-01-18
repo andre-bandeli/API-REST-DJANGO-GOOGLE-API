@@ -119,3 +119,14 @@
     padding-right: 15%;
     padding-top: 5%;
 }
+
+.adicionar {
+    margin-top: 5vh;
+}
+
+.adicionar button {
+    background-color: transparent;
+    border: none;
+}
+
+
