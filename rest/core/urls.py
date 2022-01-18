@@ -2,9 +2,9 @@
 from re import template
 from django.urls import path
 
-from .views import home as v
+from .views import home
 
 
 urlpatterns = [
-    path('', v, name="index"),
+    path('', home, name="index"),
 ]

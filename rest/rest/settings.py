@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.github',
 
     'core',
+    'tarefas',
 ]
 SITE_ID = 1
 

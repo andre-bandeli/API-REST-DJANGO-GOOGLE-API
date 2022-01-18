@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="navbar">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Listar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Infos</a>
+            </li>
+           
+    </div>
+
+    <section id="tabela">
+      <div class="container">
+        <table class="table">
+          <thead class="thead-dark">
+          </thead>
+          <tbody>
+          {% for dbs in db %}
+           <tr>
+              <th>{{dbs.nome}}</th>
+              <td>{{dbs.is_active}}</td>
+              
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+        
+    </section>
+
+
+  
+
+</body>
+</html>
