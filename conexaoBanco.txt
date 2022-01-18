@@ -1,0 +1,29 @@
+POSTGRES
+
+DATABASES = {
+    
+    'default': {
+
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+        'NAME': 'NOME DO BANCO',
+
+        'USER': 'NOME DO USUARIO DO BANCO',
+
+        'PASSWORD': 'SENHA',
+
+        'HOST': 'localhost',
+
+        'PORT': '',
+    }
+}
+
+
+sqlite3 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
