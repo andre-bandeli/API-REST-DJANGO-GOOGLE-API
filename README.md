@@ -46,4 +46,4 @@ carregando o servidor de desenvolvimento (http://localhost:8000 no navegador):
 Login/Logout utilizando oauth | Definição de permissões para usuários | Frontend: Bootstrap, css e html-5
 
 
-* Como este é um projeto em desenvolvimento, qualquer feedback será bem-vindo.
+### Como este é um projeto em desenvolvimento, qualquer feedback será bem-vindo.
