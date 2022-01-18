@@ -101,3 +101,21 @@
 .btn {
     font-size: 20px;
 }
+#tabela img {
+    width: 40px;
+    height: 40px;
+}
+
+#form {
+    font-family: 'Quicksand', sans-serif;
+    width: 30vh;
+    height: 60vh;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+}

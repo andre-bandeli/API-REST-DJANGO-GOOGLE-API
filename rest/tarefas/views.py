@@ -24,6 +24,27 @@ def form_list(request):
             user = form_list.save()
             return render(request, 'home.html')
 
+def create(request):
+    form = TarefaForms(request.POST or None)
+    if form.is_valid():
+        form.save()
+        return redirect('/list')
+
+
+
+def editar(request, pk):
+    data = {}
+    data['db'] = Tarefa.objects.get(pk=pk)
+    data['form'] = TarefaForms(instance=data['db'])
+    form = TarefaForms(request.POST or None, instance=data['db'])
+    if form.is_valid():
+        form.save()
+        return redirect('/list')
+   
+    return render(request, 'addTarefa.html', data)
+
+
+
 def delete(request, pk):
     db = Tarefa.objects.get(pk=pk)
     db.delete()
