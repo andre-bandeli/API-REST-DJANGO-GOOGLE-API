@@ -40,10 +40,10 @@ carregando o servidor de desenvolvimento (http://localhost:8000 no navegador):
 
 
 ### Implementações
-Gestão de tarefas (to do) com criação, remoção, update e deleção (CRUD) integrada ao PostgreSQL
-Login/Logout utilizando oauth
-Definição de permissões para usuários.
-Frontend: Bootstrap, css e html5
+
+#### Gestão de tarefas (to do) com criação, remoção, update e deleção (CRUD) integrada ao PostgreSQL.
+
+Login/Logout utilizando oauth | Definição de permissões para usuários |Frontend: Bootstrap, css e html-5
 
 
 Como este é um projeto em desenvolvimento, qualquer feedback será bem-vindo.
