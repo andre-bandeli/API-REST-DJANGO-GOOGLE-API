@@ -1,5 +1,5 @@
 from django.contrib.auth.decorators import login_required
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 from .models import Tarefa
 from .forms import TarefaForms
@@ -23,3 +23,8 @@ def form_list(request):
         if form_list.is_valid():
             user = form_list.save()
             return render(request, 'home.html')
+
+def delete(request, pk):
+    db = Tarefa.objects.get(pk=pk)
+    db.delete()
+    return redirect('/list')

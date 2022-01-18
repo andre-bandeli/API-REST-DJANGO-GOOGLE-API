@@ -26,18 +26,21 @@
 
     <section id="tabela">
       <div class="container">
-        <table class="table">
-          <thead class="thead-dark">
-          </thead>
-          <tbody>
+        <table>
+          <tr>
+            <td>Tarefa</td>
+            <td>Status</td>
+            <td>delete</td>
+            <td>edit</td>
+          </tr>
           {% for dbs in db %}
-           <tr>
-              <th>{{dbs.nome}}</th>
-              <td>{{dbs.is_active}}</td>
-              
-            </tr>
+          <tr>
+            <td>{{dbs.nome}}</td>
+            <td>{{dbs.is_active}}</td>
+            <td id="td-btn"><a href="/delete/{{dbs.id}}/"><img src="{% static 'css/delete.svg' %}" alt=""></a></td>
+            <td id="td-btn"><a href=""><img src="{% static 'css/delete.svg' %}" alt=""></a></td>
+          </tr>
           {% endfor %}
-          </tbody>
         </table>
       </div>
         
