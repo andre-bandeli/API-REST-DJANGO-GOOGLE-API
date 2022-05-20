@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap');
+
+
+body{
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	width: 100%;
+	height: 80vh;
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+
+	width: 100%;
+	height: 60vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20vh;
+}
+.row {
+
+	height: 20%;
+	width: 100%;
+
+}
+.col-12 {
+	height: 70%;
+
+}
+.card{
+	border: none;
+	border-top: 5px solid  rgb(176,106,252);
+	border-radius: 15px;
+	background: #00000088;
+	color: #f6f6fc;
+	height: 60vh;
+}
+p{
+	font-weight: 600;
+	font-size: 15px;
+}
+.fab{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background: #e2e2e254;
+	height: 40px;
+	width: 90px;
+	margin-top: 30%;
+}
+.fab:hover{
+	cursor: pointer;
+}
+.fa-twitter{
+	color: #56ABEC;
+}
+.fa-facebook{
+	color: #1775F1;
+}
+.fa-google{
+	color: #CB5048;
+}
+.division{
+	float: none;
+	position: relative;
+	margin: 30px auto 20px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+.division .line{
+	border-top: 1.5px solid #57557A;;
+	position: absolute;
+	top: 13px;
+	width: 85%;
+}
+.line.l{
+	left: 52px;
+}
+.line.r{
+	right: 45px;
+
+}
+.division span{
+	font-weight: 600;
+	font-size: 14px;
+}
+.myform{
+	padding: 0 25px 0 33px;
+}
+.form-control{
+	border: 1px solid #57557A;
+	border-radius: 3px;
+	background: #00000069;
+
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+.form-control:hover{
+	background: #000000d3;
+}
+.form-control:focus{
+	border: 1px solid #57557A;
+	border-radius: 3px;
+	box-shadow: none;
+	background: #000000d3;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.bn{
+	text-decoration: underline;
+}
+.bn:hover{
+	cursor: pointer;
+	
+}
+.form-check-input {
+    margin-top: 8px!important;
+    }
+.btn-primary{
+background: linear-gradient(to right top, #051937d3, #004d7ad3, #008793cc, #00bf72, #a8eb12);
+border: none;
+border-radius: 50px;
+}
+.btn-primary:focus{
+	box-shadow: none;
+	border: none;
+}
+small{
+	color: #F2CEFF;
+}
+.far.fa-user{
+	font-size: 13px;
+}
+
+@media(min-width: 767px){
+	.bn{
+		text-align: right;
+	}
+}
+@media(max-width: 767px){
+	.form-check{
+		text-align: center;
+	}
+	.bn{
+		text-align: center;
+		align-items: center;
+	}
+}
+@media(max-width: 450px){
+	.fab{
+		width: 100%;
+		height: 100%;
+	}
+	.division .line{
+		width: 50%;
+	}
+}
