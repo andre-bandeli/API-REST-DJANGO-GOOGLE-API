@@ -11,7 +11,7 @@ Este projeto consiste em criar um sistema de crud para registros de tarefas util
 
 ### Deploy Heroku
 
-https://netflix-template-heroku.herokuapp.com/
+https://django-ouath.herokuapp.com/
 
 
 ### Ferramentas utilizadas
