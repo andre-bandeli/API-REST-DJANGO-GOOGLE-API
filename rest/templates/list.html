@@ -1,28 +1,7 @@
-<!DOCTYPE html>
+{% extends 'base.html' %}
 {% load static %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+{% block content %}
     
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    
-    
-    <title>Document</title>
-</head>
-<body>
-
-    <div class="navbar">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Listar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Infos</a>
-            </li>
-           
-    </div>
 
     <div class="adicionar">
       <button>
@@ -45,7 +24,14 @@
           {% for dbs in db %}
           <tr>
             <td>{{dbs.nome}}</td>
-            <td>{{dbs.is_active}}</td>
+            {% if dbs.is_active %}
+            <td>aberta</td>
+            {%else%}
+            <td class="td-false">fechada
+              <div class="line">
+              </div>
+            </td>
+            {% endif %}
             <td id="td-btn"><a href="/delete/{{dbs.id}}/"><img src="{% static 'css/delete.svg' %}" alt=""></a></td>
             <td id="td-btn"><a href="/editar/{{dbs.id}}"><img src="{% static 'css/editing.png' %} " alt=""></a></td>
           </tr>
@@ -55,8 +41,4 @@
         
     </section>
 
-
-  
-
-</body>
-</html>
+{% endblock %}

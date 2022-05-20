@@ -1,19 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,300&family=Montserrat:wght@200;300&family=Outfit:wght@100;300&family=Quicksand:wght@300&display=swap');
 
-
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
 body{
 	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-	width: 100%;
-	height: 80vh;
+	background-size: cover;
 	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	height: 100vh;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-bottom: 1px solid black;
+    display: flex;
+	justify-content: left;
+}
+.navbar li {
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(255, 255, 255, 0.842);
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+	width: 10%;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 5px;
+}
+.nav-item {
+	width: 300px;
+    margin-left: 7%;
+
 }
 .container {
-
+	background-color: transparent;
 	width: 100%;
 	height: 60vh;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20vh;
+	margin-top: 15vh;
 }
 .row {
 
@@ -27,13 +70,13 @@ body{
 }
 .col-12 {
 	height: 70%;
-
+	text-align: center;
 }
 .card{
 	border: none;
 	border-top: 5px solid  rgb(176,106,252);
 	border-radius: 15px;
-	background: #00000088;
+	background-color: #000000de;
 	color: #f6f6fc;
 	height: 60vh;
 }
@@ -111,11 +154,36 @@ p{
 	letter-spacing: 1px;
 }
 .bn{
-	text-decoration: underline;
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0.603);
+	width: 250px;
+	height: 15px;
+	margin-left: 5vh;
+	margin-right: 5vh;
+	margin-top: 2vh;
+	text-decoration: none;
 }
 .bn:hover{
 	cursor: pointer;
-	
+	transition: .1s ease-in-out;
+	background-color: rgba(255, 0, 0, 0.836);
+	font-weight: bolder;
+}
+.bn-2{
+	position: absolute;
+	background-color: rgba(11, 102, 145, 0.603);
+	width: 250px;
+	height: 15px;
+	margin-left: 7vh;
+	margin-right: 5vh;
+	margin-top: 2vh;
+	text-decoration: none;
+}
+.bn-2:hover{
+	cursor: pointer;
+	transition: .1s ease-in-out;
+	background-color: rgba(11, 103, 145, 0.842);
+	font-weight: bolder;
 }
 .form-check-input {
     margin-top: 8px!important;
@@ -124,6 +192,7 @@ p{
 background: linear-gradient(to right top, #051937d3, #004d7ad3, #008793cc, #00bf72, #a8eb12);
 border: none;
 border-radius: 50px;
+margin-top: 3vh;
 }
 .btn-primary:focus{
 	box-shadow: none;
@@ -159,3 +228,4 @@ small{
 		width: 50%;
 	}
 }
+
