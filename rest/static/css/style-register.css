@@ -74,11 +74,32 @@ body{
 }
 .card{
 	border: none;
-	border-top: 5px solid  rgb(176,106,252);
 	border-radius: 15px;
 	background-color: #000000de;
 	color: #f6f6fc;
 	height: 60vh;
+	width: 120%;
+}
+.form-group  {
+
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 3VH;
+
+}
+.form-group .senha {
+
+	margin-right: 5.5vh;
+
+}
+.form-group .confirmacao {
+
+	margin-right: 1vh;
+
+}
+.form-group label {
+	margin-right: 2vh;
+	margin-left: 0;
 }
 p{
 	font-weight: 600;
@@ -152,10 +173,6 @@ p{
 	background: #000000d3;
 	color: #fff;
 	letter-spacing: 1px;
-}
-.myform a {
-	text-decoration: none;
-	color: white;
 }
 .bn{
 	position: absolute;
