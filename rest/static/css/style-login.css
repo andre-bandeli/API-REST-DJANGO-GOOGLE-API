@@ -21,6 +21,10 @@ body{
 	width: 100%;
 
 }
+.container img {
+	width: 40px;
+	height: 40px;
+}
 .col-12 {
 	height: 70%;
 
@@ -42,8 +46,8 @@ p{
 	justify-content: center;
 	align-items: center;
 	border: none;
-	background: #e2e2e254;
-	height: 40px;
+	background: transparent;
+	height: 50px;
 	width: 90px;
 	margin-top: 30%;
 }

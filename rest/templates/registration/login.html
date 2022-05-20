@@ -24,13 +24,13 @@
             <p class="text-center mb-3 mt-2">CONECTE-SE COM</p>
             <div class="row mx-auto ">
               <div class="col-4">
-                <i class="fab fa-twitter"></i>
+               <a href="{% url 'social:begin' 'google-oauth2' %}"><i class="fab fa-twitter"><img src="{% static 'images/github.png' %}" alt=""></i></a> 
               </div>
               <div class="col-4">
-                <i class="fab fa-facebook"></i>
+                <i class="fab fa-facebook"><img src="{% static 'images/gmail.png' %}" alt=""></i>
               </div>
               <div class="col-4">
-                <i class="fab fa-google"></i>
+                <i class="fab fa-google"><img src="{% static 'images/facebook.png' %}" alt=""></i>
               </div>
             </div>
             <div class="division">
