@@ -53,7 +53,7 @@ OAuth 2 é um protocolo de autorização que permite que uma aplicação se aute
 
 
 
-![Captura de tela de 2022-05-20 09-09-44_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526031-db155c5d-4af0-4e0b-a425-f0df1421b963.jpg) 
-![Captura de tela de 2022-05-20 09-12-37_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526401-1e7aa307-72da-48fd-8bf2-f6b067ad0f83.jpg)
+![Captura de tela de 2022-05-20 09-09-44_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526031-db155c5d-4af0-4e0b-a425-f0df1421b963.jpg)
+![Captura de tela de 2022-05-20 09-12-37_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526646-ae052b8a-d0a6-4406-acf8-5c3d42f68c0d.jpg)
 ![Captura de tela de 2022-05-20 09-10-07_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526230-b7b5354a-fd33-47d8-b796-fe46e349e11e.jpg)
 
