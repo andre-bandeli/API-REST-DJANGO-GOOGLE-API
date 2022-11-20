@@ -67,8 +67,6 @@ Deletar objeto por Id:
 
 ## Rest API
 
-API REST, também chamada de API RESTful, é uma interface de programação de aplicações (API ou API web) que está em conformidade com as restrições do estilo de arquitetura REST, permitindo a interação com serviços web RESTful.[https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api]
-
 - Ter uma arquitetura cliente/servidor formada por clientes, servidores e recursos, com solicitações gerenciadas por HTTP.
 - Estabelecer uma comunicação stateless entre cliente e servidor.
 - Armazenar dados em cache para otimizar as interações entre cliente e servidor.
