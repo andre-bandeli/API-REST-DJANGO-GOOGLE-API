@@ -1,4 +1,4 @@
-# Rest API Django + OAuth2 + Deploy Heroku
+# REST API Django + OAuth2 + Deploy Heroku
 ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
@@ -13,6 +13,47 @@ Este projeto consiste em criar um sistema de crud para registros de tarefas util
 
 https://django-ouath.herokuapp.com/
 
+## Instalação
+
+        git clone https://github.com/andre-bandeli/api-rest-django.git
+        
+ Crie um ambiente de desenvolvimento com a venv do python com o comando
+        
+        python3 -m venv [NOME VENV]
+        cd venv/ source bin/activate
+        
+ Caminhe até a pasta rest, onde encontra-se o arquivo 'requirements.txt' e execute o comando
+  
+        pip install -r requirements.txt
+      
+ Faça as migrações necessárias com os comandos
+     
+        python3 manage.py makemigrations && python3 manage.py migrate
+        python3 manage.py createsuperuser
+        python3 manage.py runserver
+
+
+### Testes Postman
+
+Objeto JSON
+
+    {
+        "nome": "Realizar matrícula",
+        "active" : True
+    }
+
+Criar novo objeto:
+
+    POST: localhost:8080/create
+
+consultar todos os objetos:
+
+    GET: localhost:8080/list
+
+Deletar objeto por Id:
+
+    DELETE: localhost:8080/delete/{id}
+    
 
 ### Ferramentas utilizadas
 
@@ -22,17 +63,6 @@ https://django-ouath.herokuapp.com/
 - JavaScript
 - css
 - html5
-
-## Instalação
-
-  - Clone o repositório com o comando: git clone
-  - Crie um ambiente de desenvolvimento com a venv do python com o comando: python3 -m venv [NOME VENV]
-  - Ative a venv com o comando: cd venv/ source bin/activate
-  - Caminhe até a pasta rest, onde encontra-se o arquivo 'requirements.txt' e execute o comando: pip install -r requirements.txt
-  - Faça as migrações necessárias com os comandos: python3 manage.py makemigrations && python3 manage.py migrate
-  - Crie um novo super usuário com o comando: python3 manage.py createsuperuser
-  - Rode o servidor local com o comando: python3 manage.py runserver
-
 
 
 ## Rest API
@@ -47,13 +77,6 @@ API REST, também chamada de API RESTful, é uma interface de programação de a
 - Possibilitar código sob demanda (opcional): a capacidade de enviar um código executável do servidor para o cliente quando solicitado
 
 
-## OAuth 2
-
-OAuth 2 é um protocolo de autorização que permite que uma aplicação se autentique em outra. Para que isso aconteça, uma aplicação pede permissão de acesso para um usuário, sem que para isso ela tenha acesso a alguma senha dele. O usuário pode conceder ou não o acesso à aplicação. Depois da permissão ser aceita, caso o usuário precise alterar a senha de acesso, a permissão continuará válida para a aplicação e, caso necessário, a permissão dada à aplicação pode ser revogada a qualquer momento também. https://www.treinaweb.com.br/blog/o-que-e-oauth-2
-
-
-
 ![Captura de tela de 2022-05-20 09-09-44_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526031-db155c5d-4af0-4e0b-a425-f0df1421b963.jpg)
 ![Captura de tela de 2022-05-20 09-12-37_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526646-ae052b8a-d0a6-4406-acf8-5c3d42f68c0d.jpg)
 ![Captura de tela de 2022-05-20 09-10-07_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526230-b7b5354a-fd33-47d8-b796-fe46e349e11e.jpg)
-
