@@ -9,9 +9,11 @@
 
 Este projeto consiste em criar um sistema de crud para registros de tarefas utilizando arquitetura rest e sistema de autenticação com OAuth2. Frontend desenvolvido utilizando bootstrap, html, css e javascript.
 
-### Deploy Heroku
 
-https://django-ouath.herokuapp.com/
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
+<kbd>Deploy no heroku não disponível/Mudança na política do uso gratuito de banco de dados </kbd>
+
 
 ## Instalação
 
@@ -64,17 +66,7 @@ Deletar objeto por Id:
 - css
 - html5
 
-
-## Rest API
-
-- Ter uma arquitetura cliente/servidor formada por clientes, servidores e recursos, com solicitações gerenciadas por HTTP.
-- Estabelecer uma comunicação stateless entre cliente e servidor.
-- Armazenar dados em cache para otimizar as interações entre cliente e servidor.
-- Ter uma interface uniforme entre os componentes para que as informações sejam transferidas em um formato padronizado.
-- Sistema em camadas que organiza os tipos de servidores envolvidos na recuperação das informações solicitadas em hierarquias que o cliente não pode ver.
-- Possibilitar código sob demanda (opcional): a capacidade de enviar um código executável do servidor para o cliente quando solicitado
-
-
+---
 
 ![Captura de tela de 2022-05-20 09-09-44_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526031-db155c5d-4af0-4e0b-a425-f0df1421b963.jpg)
 ![Captura de tela de 2022-05-20 09-12-37_Easy-Resize com](https://user-images.githubusercontent.com/87938869/169526646-ae052b8a-d0a6-4406-acf8-5c3d42f68c0d.jpg)
